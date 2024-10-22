@@ -51,6 +51,42 @@ Jaune : #ffc107
     https://getbootstrap.com/docs/5.0/utilities/spacing/
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+#navbar {
+  background-color: #af966e;
+}
+
+#menu {
+  display: flex;
+  font-family: 'Medula One', cursive;
+  font-size: 24px;
+}
+
+#menu li img {
+  margin-top: 20px;
+}
+
+#titre {
+  font-size: 64px;
+  margin-left: 10px;
+}
+
+.links {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+  color: black;
+}
+
+#entrer {
+  background-image: url("../img/zelda-bg_pattern_brown.png");
+}
+
 
 
 
