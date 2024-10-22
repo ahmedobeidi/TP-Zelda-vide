@@ -60,6 +60,7 @@ Jaune : #ffc107
 
 #navbar {
   background-color: #af966e;
+  padding-bottom: 5px;
 }
 
 #menu {
@@ -70,26 +71,57 @@ Jaune : #ffc107
 
 #menu li img {
   margin-top: 20px;
+  margin-right: 25px;
 }
 
 #titre {
-  font-size: 64px;
+  margin-top: 22px;
+  color: black;
+  font-size: 50px;
   margin-left: 10px;
 }
 
+#list {
+  margin-top: 37px;
+  display: flex;
+  margin-left: 40px;
+}
+
 .links {
-  font-family: 'Libre Baskerville', serif;
+  margin-left: 20px;
+  text-decoration: none;
+  font-family: 'Medula One', cursive;
   font-size: 24px;
   color: black;
 }
 
-#entrer {
-  background-image: url("../img/zelda-bg_pattern_brown.png");
+#carousel img {
+  width: 100%;
 }
 
+#entrer {
+  height: 500px;
+  background-image: url("../img/zelda-bg_pattern_brown.png");
+  color: white;
+}
 
+#entrer div {
+  display: flex;
+  justify-content: center;
+}
 
+#entrer div h2{
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
 
+#entrer div p span {
+  color: #c2a304;
+}
+
+#entrer div * {
+  width: 950px;
+}
 /* STYLES DES SECTIONS  */
 
 .dark {
