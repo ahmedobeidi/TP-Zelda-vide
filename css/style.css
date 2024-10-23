@@ -135,8 +135,9 @@ Jaune : #ffc107
   margin-top:  50px;
 }
 
-#entrer .section h2 {
-  margin-left: 300px;
+#entrer .section .content {
+  margin-left: 200px;
+  font-family: 'Medula One', cursive;
 }
 
 /* STYLES DES SECTIONS  */
