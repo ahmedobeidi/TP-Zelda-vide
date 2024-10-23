@@ -100,28 +100,39 @@ Jaune : #ffc107
 }
 
 #entrer {
-  height: 500px;
+  padding-bottom: 20px;
   background-image: url("../img/zelda-bg_pattern_brown.png");
   color: white;
 }
 
-/* #entrer div {
-  display: flex;
-  justify-content: center;
-} */
-
 #entrer #title {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Medula One', cursive;
+}
+
+#entrer #title h2 {
+  font-size: 50px;
+}
+
+#entrer #para1, #entrer #para2 {
   display: flex;
   justify-content: center;
 }
 
-#entrer div h2{
-  border-bottom: 1px solid white;
-  padding-bottom: 10px;
+#entrer #para1 {
+  margin-top: 20px;
 }
 
-#entrer div p span {
+#entrer #para2 span {
   color: #c2a304;
+}
+
+#entrer .section {
+  display: flex;
+  justify-content: center;
+  margin-top:  50px;
 }
 
 /* #entrer div * {
