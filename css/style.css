@@ -135,9 +135,10 @@ Jaune : #ffc107
   margin-top:  50px;
 }
 
-/* #entrer div * {
-  width: 950px;
-} */
+#entrer .section h2 {
+  margin-left: 300px;
+}
+
 /* STYLES DES SECTIONS  */
 
 .dark {
